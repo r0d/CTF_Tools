@@ -3,8 +3,6 @@ inplaintext = input('If you know any plaintext give it here (else type "no"):  \
 
 string = string.lower()
 inplaintext = inplaintext.lower()
-#print(string)
-#print(inplaintext)
 
 for i in range(1, 27): 
 	shift = i
@@ -32,4 +30,3 @@ for i in range(1, 27):
 			break
 		else: 
 			continue
-#print("Couldn't find any") 
